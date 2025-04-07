@@ -10,7 +10,7 @@ export default function Intro() {
     typeSpeed: 120,
   });
 
-  // Fonction pour colorer "Yannick" en temps réel et ajouter le curseur
+  // Fonction pour colorer targetWord en temps réel et ajouter le curseur
   const formatText = text => {
     const targetWord = 'Yannick';
     let currentIndex = 0;
