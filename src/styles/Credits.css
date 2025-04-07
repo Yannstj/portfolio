@@ -1,0 +1,14 @@
+#credits {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+  }
+  
+  .ending-credits {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--pine-green);
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    padding-bottom: 40px;
+  }

@@ -1,0 +1,43 @@
+/* 
+:root {
+  --main-beige: #F3E1BB;
+  --forest-green: #BAC5A2;
+  --darker-forest-green: #87A891;
+  --blue-green: #5D8882;
+  --deep-blue: #406870;
+  --grey-blue: #2F4858;
+}
+
+:root {
+  --beige-light: #FAF3E3;
+  --main-beige: #F3E1BB;
+  --beige-medium: #EDD8AA;
+  --forest-green: #BAC5A2;
+  --moss-green: #A1B58C;
+  --darker-forest-green: #87A891;
+  --sage-green: #6F947C;
+  --blue-green: #5D8882;
+  --sea-teal: #4C7A76;
+  --deep-blue: #406870;
+  --grey-blue: #2F4858;
+  --blue-deepest: #1E3540;
+}
+*/
+:root {
+    /* Tons beiges clairs */
+    --beige-light: #FAF3E3;
+    --main-beige: #F3E1BB;
+    --beige-medium: #E6D3A8;
+  
+    /* Verts doux / feuillus */
+    --forest-green: #BAC5A2;
+    --moss-green: #A1B58C;
+    --sage-green: #8DA98B;
+  
+    /* Verts profonds et naturels */
+    --deep-olive: #6F8D6A;
+    --pine-green: #4E6C50;
+    --fir-green: #2F4B3A;
+    --forest-night: #1E3327;
+  }
+  

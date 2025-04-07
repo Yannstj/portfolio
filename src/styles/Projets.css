@@ -1,0 +1,153 @@
+#projects {
+    margin: auto;
+    padding-top: 100px;
+    max-width: 1000px;
+    min-height: 50vh;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  @media (max-width: 1080px) {
+    .projects-grid {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  }
+  
+  .projects-card {
+    position: relative;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 2rem 1.75rem;
+    background-color: var(--beige-medium);
+    border-radius: 16px;
+  }
+  
+  .projects-card:hover {
+    transform: translateY(-7px);
+    background-color: var(--beige-light);
+  }
+  
+  .card-header {
+    margin-top: -20px;
+    display: flex;
+    padding: 1.25em 0 !important;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: none !important;
+  }
+  
+  .folder-icon {
+    color: var(--pine-green);
+  }
+  
+  .github-icon {
+    margin-top: 6px;
+  }
+  
+  .github-icon:hover {
+    color: var(--green-bright);
+  }
+  
+  .open-icon {
+    margin-left: 10px;
+  }
+  
+  .card-title {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--forest-night);
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .card-desc {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--pine-green);
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+  
+  .card-tech {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--pine-green);
+    font-size: 14px;
+  }
+  
+  /* Spotlight carousel */
+  .carousel.slide {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+  }
+  
+  .carousel-inner {
+    height: 500px;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%); 
+  }
+  
+  .carousel-inner:hover {
+    transform: scale(1.01);
+  }
+  
+  .carousel img {
+    object-fit: contain;
+    height: 100%;
+    opacity: 0.5;
+  }
+  
+  .carousel-caption {
+    font-family: 'Quicksand', sans-serif;
+    max-width: 500px;
+    right: unset !important;
+    left: 25% !important;
+    user-select: none;
+    bottom: 218px;
+  }
+
+
+  
+  .carousel-caption h3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--forest-night);
+  }
+  
+  .carousel-caption p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--forest-night);
+  }
+  
+  .carousel-caption .techStack {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--pine-green);
+  }
+  
+  .carousel-indicators .active {
+    background-color: var(--pine-green);
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #projects {
+      height: unset;
+      padding-left: unset;
+      padding-right: unset;
+    }
+    
+    .carousel {
+      display: none;
+    }
+    .projects-grid{
+      padding: 0;
+    }
+  }
+  
