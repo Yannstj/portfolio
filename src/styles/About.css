@@ -84,6 +84,7 @@
 
   .about-description a,
   .about-description b {
+    text-align: left;
     font-size: 15px; /* -2px */
   }
 
