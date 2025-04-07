@@ -25,5 +25,5 @@ dist-ssr
 
 # Added
 .prettierrc
-.prettierrcignore
-eslint.config.js
+.prettierignore
+.eslint.config.js
