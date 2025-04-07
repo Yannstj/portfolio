@@ -1,7 +1,7 @@
-import React from "react";
-import "../styles/Experience.css";
-import FadeInSection from "./FadeInSection";
-import JobList from "./JobList";
+import React from 'react';
+import '../styles/Experience.css';
+import FadeInSection from './FadeInSection';
+import JobList from './JobList';
 
 const Experience = () => {
   return (

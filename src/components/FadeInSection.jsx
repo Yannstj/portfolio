@@ -1,6 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from 'react';
 
-export default function FadeInSection({ children, delay = "0s" }) {
+export default function FadeInSection({ children, delay = '0s' }) {
   const [isVisible, setVisible] = useState(false);
   const domRef = useRef(null);
 
@@ -24,7 +24,7 @@ export default function FadeInSection({ children, delay = "0s" }) {
 
   return (
     <div
-      className={`fade-in-section ${isVisible ? "is-visible" : ""}`}
+      className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
       style={{ transitionDelay: delay }}
       ref={domRef}
     >

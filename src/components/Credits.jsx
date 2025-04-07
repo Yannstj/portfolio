@@ -1,13 +1,13 @@
-import React from "react";
-import "../styles/Credits.css";
-import FadeInSection from "./FadeInSection";
+import React from 'react';
+import '../styles/Credits.css';
+import FadeInSection from './FadeInSection';
 
 const Credits = () => {
-//   const [activeKey, setActiveKey] = useState(0); // Tu n'en fais rien pour le moment
+  //   const [activeKey, setActiveKey] = useState(0); // Tu n'en fais rien pour le moment
 
-//   const handleSelect = (eventKey) => {
-//     setActiveKey(eventKey);
-//   };
+  //   const handleSelect = (eventKey) => {
+  //     setActiveKey(eventKey);
+  //   };
 
   return (
     <FadeInSection>

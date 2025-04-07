@@ -24,20 +24,19 @@
 }
 */
 :root {
-    /* Tons beiges clairs */
-    --beige-light: #FAF3E3;
-    --main-beige: #F3E1BB;
-    --beige-medium: #E6D3A8;
-  
-    /* Verts doux / feuillus */
-    --forest-green: #BAC5A2;
-    --moss-green: #A1B58C;
-    --sage-green: #8DA98B;
-  
-    /* Verts profonds et naturels */
-    --deep-olive: #6F8D6A;
-    --pine-green: #4E6C50;
-    --fir-green: #2F4B3A;
-    --forest-night: #1E3327;
-  }
-  
+  /* Tons beiges clairs */
+  --beige-light: #faf3e3;
+  --main-beige: #f3e1bb;
+  --beige-medium: #e6d3a8;
+
+  /* Verts doux / feuillus */
+  --forest-green: #bac5a2;
+  --moss-green: #a1b58c;
+  --sage-green: #8da98b;
+
+  /* Verts profonds et naturels */
+  --deep-olive: #6f8d6a;
+  --pine-green: #4e6c50;
+  --fir-green: #2f4b3a;
+  --forest-night: #1e3327;
+}

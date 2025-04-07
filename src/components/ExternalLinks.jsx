@@ -1,6 +1,6 @@
-import GitHubIcon from "@mui/icons-material/GitHub";
-import OpenInBrowserIcon from "@mui/icons-material/OpenInBrowser";
-import React from "react";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
+import React from 'react';
 
 const ExternalLinks = ({ githubLink, openLink }) => {
   return (
@@ -9,7 +9,7 @@ const ExternalLinks = ({ githubLink, openLink }) => {
         <GitHubIcon
           style={{
             fontSize: 20,
-            color: "var(--forest-night)"
+            color: 'var(--forest-night)',
           }}
         />
       </a>
@@ -18,7 +18,7 @@ const ExternalLinks = ({ githubLink, openLink }) => {
           <OpenInBrowserIcon
             style={{
               fontSize: 24,
-              color: "var(--forest-night)"
+              color: 'var(--forest-night)',
             }}
           />
         </a>

@@ -1,26 +1,26 @@
 .navbar {
-    background-color: var(--main-beige) !important;
-    /* to override bg-body-tertiary */
-    color: var(--forest-night);
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
-  }
-  .navbar-light .navbar-brand  {
-    color: var(--forest-night) !important;
-  }
-  .navbar-light .navbar-nav .nav-link {
-    color: var(--forest-night) !important;
-  }
-  .navbar-light .navbar-nav .nav-link:hover {
-    color: var(--pine-green) !important;
+  background-color: var(--main-beige) !important;
+  /* to override bg-body-tertiary */
+  color: var(--forest-night);
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+.navbar-light .navbar-brand {
+  color: var(--forest-night) !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: var(--forest-night) !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--pine-green) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-light .navbar-brand {
+    display: none;
   }
 
-  @media only screen and (max-width: 600px) {
-    .navbar-light .navbar-brand  {
-        display: none;
-    }
-  
-    .navbar-light .navbar-nav.me-auto .nav-link {
-        display: none;
-      }
+  .navbar-light .navbar-nav.me-auto .nav-link {
+    display: none;
   }
+}
