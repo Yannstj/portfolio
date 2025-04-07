@@ -24,6 +24,6 @@ dist-ssr
 *.sw?
 
 # Added
-
-/.prettierrc
-/.prettierrcignore
+.prettierrc
+.prettierrcignore
+eslint.config.js
