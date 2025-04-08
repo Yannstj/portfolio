@@ -26,10 +26,10 @@ export default function NavBar() {
           <Nav.Link href="https://github.com/Yannstj" target="_blank">
             <GitHubIcon style={{ fontSize: 19 }} />
           </Nav.Link>
-          <Nav.Link href="test" target="_blank">
+          <Nav.Link href="https://www.linkedin.com/in/yannick-saint-just/" target="_blank">
             <LinkedInIcon style={{ fontSize: 21 }} />
           </Nav.Link>
-          <Nav.Link href="test">
+          <Nav.Link href="https://medium.com/@colored_sekai" target="_blank">
             <BorderColorIcon style={{ fontSize: 20 }} />
           </Nav.Link>
         </Nav>

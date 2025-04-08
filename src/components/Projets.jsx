@@ -52,13 +52,13 @@ const Projects = () => {
       open: 'https://yannstj.github.io/booki-starter-code/',
     },
     'Site de location Kasa': {
-      desc: 'Implémentation front-end d’une application avec React Router pour la navigation.',
-      techStack: 'React.js',
+      desc: 'Implémentation de l’interface front-end d’une application stylisée avec SASS et navigation assurée par React Router.',
+      techStack: 'React.js, SASS',
       link: 'https://github.com/Yannstj/kasa-website',
       open: 'https://yannstj.github.io/kasa-website/',
     },
-    'Back-end Mon vieux grimoire': {
-      desc: 'Mise en place d’un serveur connecté à une base de données MongoDB avec authentification sécurisée, et implémentation du CRUD.',
+    'Mon vieux grimoire': {
+      desc: 'Mise en place d’une API REST connectant un serveur à une base de données MongoDB, avec authentification sécurisée et implémentation des opérations CRUD.',
       techStack: 'Node.js (Express.js), MongoDB',
       link: 'https://github.com/Yannstj/mvg-backend',
     },
