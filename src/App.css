@@ -57,7 +57,7 @@ a {
 .section-title {
   font-family: 'Quicksand', sans-serif;
   color: var(--grey-blue);
-  font-size: 44px; /* -2px */
+  font-size: 44px;
   font-weight: bold;
 }
 
@@ -84,6 +84,6 @@ a {
   }
 
   .section-title {
-    font-size: 30px; /* -2px */
+    font-size: 30px;
   }
 }

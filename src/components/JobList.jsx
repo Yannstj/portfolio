@@ -57,7 +57,6 @@ const JobList = () => {
       }}
     >
       <Tabs
-        // orientation={isHorizontal ? "horizontal" : "vertical"}
         orientation="vertical"
         variant={isHorizontal ? 'fullWidth' : 'scrollable'}
         value={value}
@@ -74,7 +73,6 @@ const JobList = () => {
           <Tab
             key={key}
             label={key}
-            //   label={isHorizontal ? `0${i}.` : key}
             id={`tab-${i}`}
             aria-controls={`tabpanel-${i}`}
             sx={{
@@ -92,7 +90,7 @@ const JobList = () => {
               },
               '.MuiTab-wrapper': {
                 justifyContent: 'flex-start',
-                flexDirection: 'row', // Si tu veux forcer l’alignement horizontal du texte
+                flexDirection: 'row',
                 width: '100%',
                 textAlign: 'left',
                 alignItems: 'flex-start !important',

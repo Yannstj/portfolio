@@ -1,28 +1,3 @@
-/* 
-:root {
-  --main-beige: #F3E1BB;
-  --forest-green: #BAC5A2;
-  --darker-forest-green: #87A891;
-  --blue-green: #5D8882;
-  --deep-blue: #406870;
-  --grey-blue: #2F4858;
-}
-
-:root {
-  --beige-light: #FAF3E3;
-  --main-beige: #F3E1BB;
-  --beige-medium: #EDD8AA;
-  --forest-green: #BAC5A2;
-  --moss-green: #A1B58C;
-  --darker-forest-green: #87A891;
-  --sage-green: #6F947C;
-  --blue-green: #5D8882;
-  --sea-teal: #4C7A76;
-  --deep-blue: #406870;
-  --grey-blue: #2F4858;
-  --blue-deepest: #1E3540;
-}
-*/
 :root {
   /* Tons beiges clairs */
   --beige-light: #faf3e3;

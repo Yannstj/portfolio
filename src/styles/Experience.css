@@ -61,22 +61,6 @@
   margin-top: -5px;
   padding-left: 25px;
 }
-/* MUI TABS OVERRIDES */
-/* .MuiTab-wrapper {
-    font-size: 14px;
-    text-align: left;
-    align-items: flex-start !important;
-    font-family: 'Quicksand', sans-serif;
-  }
-  
-  .MuiButtonBase-root {
-    outline: none !important;
-    color: var(--forest-night) !important;
-  }
-  
-  .MuiButtonBase-root:focus {
-    color: var(--pine-green) !important;
-  } */
 
 .MuiTabs-indicator {
   background-color: var(--pine-green) !important;

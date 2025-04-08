@@ -11,7 +11,7 @@
 
 .intro-title {
   font-family: 'Quicksand', sans-serif;
-  font-size: 84px; /* -2px */
+  font-size: 84px;
 }
 
 .intro-subtitle {
@@ -20,7 +20,7 @@
   color: var(--forest-night);
   text-align: center;
   font-weight: 300;
-  font-size: 46px; /* -2px */
+  font-size: 46px;
 }
 
 .intro-desc {
@@ -33,7 +33,7 @@
 }
 
 .intro-contact {
-  font-size: 20px; /* -2px */
+  font-size: 20px;
   font-weight: bolder;
   font-family: 'Quicksand', sans-serif;
   align-self: center;
@@ -57,25 +57,25 @@
   }
 
   .intro-title {
-    font-size: 44px; /* -2px */
+    font-size: 44px;
   }
 
   .intro-name {
-    font-size: 44px; /* -2px */
+    font-size: 44px;
   }
 
   .intro-subtitle {
     margin: 0;
-    font-size: 26px; /* -2px */
+    font-size: 26px;
   }
 
   .intro-desc {
-    font-size: 16px; /* -2px */
+    font-size: 16px;
     max-width: unset;
     padding-bottom: 40px;
   }
 
   .intro-contact {
-    font-size: 14px; /* -2px */
+    font-size: 14px;
   }
 }

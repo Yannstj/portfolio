@@ -15,7 +15,7 @@
 .about-description li {
   position: relative;
   padding-left: 20px;
-  font-size: 16px; /* -2px */
+  font-size: 16px;
   color: var(--forest-night);
 }
 
@@ -35,14 +35,14 @@
   font-family: 'Quicksand', sans-serif;
   color: var(--deep-blue);
   max-width: 600px;
-  font-size: 20px; /* -2px */
+  font-size: 20px;
   text-align: justify;
   margin: 0;
 }
 
 .about-description a,
 .about-description b {
-  font-size: 19px; /* -2px */
+  font-size: 19px;
   font-weight: bold;
 }
 
@@ -78,13 +78,13 @@
   }
 
   .about-description {
-    font-size: 16px; /* -2px */
+    font-size: 16px;
     text-align: left;
   }
 
   .about-description a,
   .about-description b {
-    font-size: 15px; /* -2px */
+    font-size: 15px;
   }
 
   .about-image img {

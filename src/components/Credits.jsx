@@ -3,12 +3,6 @@ import '../styles/Credits.css';
 import FadeInSection from './FadeInSection';
 
 const Credits = () => {
-  //   const [activeKey, setActiveKey] = useState(0); // Tu n'en fais rien pour le moment
-
-  //   const handleSelect = (eventKey) => {
-  //     setActiveKey(eventKey);
-  //   };
-
   return (
     <FadeInSection>
       <div id="credits">
