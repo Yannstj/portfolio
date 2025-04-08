@@ -16,7 +16,7 @@ const Projects = () => {
       techStack: 'JAVASCRIPT',
       link: 'https://github.com/Yannstj/portfolio-architect-sophie-bluel',
       open: 'https://sophie-bluel-architect.vercel.app/',
-      image: '/assets/sophie_bluel.png',
+      image: './assets/sophie_bluel.png',
     },
     Kasa: {
       title: 'kasa website',
@@ -24,7 +24,7 @@ const Projects = () => {
       techStack: 'REACT.JS',
       link: 'https://github.com/Yannstj/kasa-website',
       open: 'https://yannstj.github.io/kasa-website/',
-      image: '/assets/kasa.png',
+      image: './assets/kasa.png',
     },
     'Mon Vieux Grimoire': {
       title: 'mon vieux grimoire',
@@ -32,7 +32,7 @@ const Projects = () => {
       techStack: 'NODE.JS (EXPRESS.JS), MONGODB',
       link: 'https://github.com/Yannstj/mvg-backend',
       open: 'https://mon-vieux-grimoire-livres.vercel.app/',
-      image: '/assets/api_livres.png',
+      image: './assets/api_livres.png',
     },
     Optimisation: {
       title: 'Optimisation',
@@ -40,7 +40,7 @@ const Projects = () => {
       techStack: 'JAVASCRIPT',
       link: 'https://github.com/Yannstj/Nina-Carducci-Dev',
       open: 'https://github.com/Yannstj/Nina-Carducci-Dev',
-      image: '/assets/seo_projet.png',
+      image: './assets/seo_projet.png',
     },
   };
 

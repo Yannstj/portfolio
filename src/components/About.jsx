@@ -45,7 +45,7 @@ export default function About() {
           </div>
 
           <div className="about-image">
-            <img alt="Colored Sekai" src="/assets/colored_sekai_300x300.jpeg" />
+            <img alt="Colored Sekai" src="./assets/colored_sekai_300x300.jpeg" />
           </div>
         </div>
       </FadeInSection>
