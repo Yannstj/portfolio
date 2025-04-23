@@ -39,7 +39,7 @@ const Projects = () => {
       desc: 'Refactorisation et optimisation des performances d’un portfolio, dans le but d’améliorer le SEO.',
       techStack: 'JAVASCRIPT',
       link: 'https://github.com/Yannstj/Nina-Carducci-Dev',
-      open: 'https://github.com/Yannstj/Nina-Carducci-Dev',
+      open: 'https://nina-carducci-photographe.netlify.app/',
       image: './assets/seo_projet.png',
     },
   };
